@@ -63,7 +63,7 @@ sidebarLinks.forEach((sidebarLink) => {
 		
 		var target = sidebarLink.getAttribute("href").replace('#', '');
 		
-		//console.log(target);
+		// console.log(target);
 		
         document.getElementById(target).scrollIntoView({ behavior: 'smooth' });
         
